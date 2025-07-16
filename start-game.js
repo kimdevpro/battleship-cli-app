@@ -1,5 +1,4 @@
 import { execSync } from 'child_process';
-import fs from 'fs';
 import path from 'path';
 
 // List required modules
@@ -22,6 +21,6 @@ if (missingModules.length > 0) {
 }
 
 // Run the actual game
-const gamePath = path.resolve('./battleship.js');
+const gamePath = path.resolve('./main.js');
 const gameCommand = `node ${gamePath}`;
 execSync(gameCommand, { stdio: 'inherit' });

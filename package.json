@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start-game": "node start.js"
+    "start-game": "node start-game.js"
   },
   "dependencies": {
     "chalk": "^5.4.1",
